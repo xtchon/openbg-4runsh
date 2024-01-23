@@ -44,8 +44,8 @@ def train_entry():
     # train_data = dataset["train[:10%]"]
     # dev_data = dataset["train[:10%]"]
     # offset = int(len(train_data_all) * 0.1)
-    dev_data = datasets.load_dataset("./kaggle/working/openbg/data/dev", split='validation[:]')
-    train_data = datasets.load_dataset("./kaggle/working/openbg/data/train", split='train[:]')
+    dev_data = datasets.load_dataset("/content/openbg-4runsh/data/dev", split='validation[:]')
+    train_data = datasets.load_dataset("/content/openbg-4runsh/data/train", split='train[:]')
 
 
     print(len(train_data))
