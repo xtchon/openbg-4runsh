@@ -10,7 +10,7 @@ MAX_LENGTH=128
 
 echo "Start running"
 if [ $# == 0 ]; then
-    CUDA_VISIBLE_DEVICES=5 python run.py \
+    python run.py \
     --data_dir=${DATA_DIR} \
     --model_dir=${MODEL_DIR} \
     --output_dir=${OUTPUT_DIR} \
