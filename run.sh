@@ -2,7 +2,7 @@
 DATA_DIR="data"
 
 MODEL_DIR="./bert-base-chinese"
-OUTPUT_DIR="output/save_dict1/"
+OUTPUT_DIR="output/save_dict/"
 PREDICT_DIR="data/"
 MODEL_TYPE="PMI"
 MAX_LENGTH=128
